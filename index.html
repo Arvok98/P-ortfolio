@@ -120,11 +120,27 @@
    <section id="contactContent"><!-- CONTACT -->
     <h2 id="contact">Contact</h2>
       <div class="group">
-        <ul id="contact">
-          <div class="item"><li><a href="https://github.com/Arvok98" target="_blank">GitHub</a></li></div>
-          <div class="item"><li><a href="https://www.linkedin.com/in/luan-demello-47a4681b1/" target="_blank" >LinkedIn</a></li></div>
-          <div class="item"><li><a href="mailto:melloluan8@gmail.com" target="_blank">My Email</a></li></div>
-        </ul>
+          <div class="item btn btn-contact"><a href="https://github.com/Arvok98" target="_blank">GitHub</a></div>
+          <div class="item btn btn-contact"><a href="https://www.linkedin.com/in/luan-demello-47a4681b1/" target="_blank" >LinkedIn</a></div>
+          <div class="item item-double">
+            <form action="https://formspree.io/f/xzbkevzd" method="POST">
+              <label>
+                Name:
+                <input type="text" name="name">
+              </label>
+
+              <label>
+                Email:
+                <input type="text" name="_replyto">
+              </label>
+
+              <label>
+                Message:
+                <textarea name="message"></textarea>
+              </label>
+              <button type="submit">Send</button>
+            </form>
+          </div>
       </div>
    </section>
 

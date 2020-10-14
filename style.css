@@ -84,9 +84,8 @@ main p, li{
   font-size: 20px;
 }
 
-main 
-
 .group #contact {
+  display: flex;
   list-style: none;
 }
 /*---------------- END WRAP ----------------------*/
@@ -108,7 +107,7 @@ footer h3{
 /* --------------------LINK COLORS ------------------*/
 a:link{ color:rgb(168, 191, 211); }
 a:visited{ color: rgb(168, 191, 211); }
-a:hover{color: white;}
+a:hover{color: rgb(245, 223, 181);}
 a:active{ color: azure;}/* ----------END WRAP-------*/
 
 
@@ -136,7 +135,16 @@ a:active{ color: azure;}/* ----------END WRAP-------*/
   color: rgb(0, 0, 0) !important;
   background-color: rgb(243, 204, 152);
   border-color:rgb(236, 236, 212);
-}/*------------------ END WRAP -------------------- */
+}
+
+.btn-contact {
+  color: #fff;
+  background-color: #3379b791;
+  border-color: #2e6da4f6;
+  padding: 80px 70px;
+  
+}
+/*------------------ END WRAP -------------------- */
 
  
 .map-responsive{/*--------------- Google Maps iframe -------------*/
@@ -191,6 +199,8 @@ hr{
   margin: 10px;
 }
 
+
+
  /*----------------- Groups & Items Desktop ---------------------*/
 
  @media all and (min-width: 800px) {
@@ -210,4 +220,22 @@ hr{
       margin: 20px;
     }
  }
+
+ /*---------------- Email Form --------------------*/ 
  
+ form label{
+   display: block;
+   font-size: 18px;
+   margin-bottom: 5px;
+   color: gray;
+   font-family: arial;
+
+ }
+
+ form input[type=text] {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
